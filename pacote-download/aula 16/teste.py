@@ -1,0 +1,20 @@
+Lanche = ("Hamburguer", "Suco", "Pizza", "Pudim", "Batata Frita")
+print(Lanche)
+print(Lanche[1])
+print(Lanche[3])
+print(Lanche[-2])
+print(Lanche[1:3])
+print(Lanche[2:])
+print(Lanche[:2])
+print(Lanche[-2:])
+for cont in range(0, len(Lanche)):
+    print(f"Eu vou comer {Lanche[cont]} na posição {cont}")
+for pos, comida in enumerate (Lanche):
+   print(f"eu vou comer {comida} na posição {pos}")
+print("Comi pra caramba!")
+print(sorted(Lanche))
+print(Lanche)
+a = (1,2,3)
+b = (4,5,6)
+c = a + b
+print(c)
